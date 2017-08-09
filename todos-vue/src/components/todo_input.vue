@@ -2,6 +2,7 @@
 	<transition name='slide-fade1'>
       <input v-if='titleShow' id='todo_input' placeholder="input and enter" @click.stop='' v-model='todoValue' />
     </transition>
+    
 </template>
 
 <script>
